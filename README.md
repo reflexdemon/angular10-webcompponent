@@ -2,26 +2,20 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.1.
 
-## Development server
+The sole purpose of this project is learn the [Angular Elements](https://angular.io/guide/elements).
+This is just a spike to test and demo this feature.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Compile and Build
 
-## Code scaffolding
+Run `npm run build:elements` to compile and output the content to the `docs` folder.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Demo
 
-## Build
+The link to the demo can be found at my GH Pages that will be link on the description of this repository.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Demo Source
 
-## Running unit tests
+The demo code can be found [here](https://github.com/reflexdemon/angular10-webcompponent/blob/master/docs/index.html)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## About the Author
+I am a tech savvy developer who loves to `code` even if it not my bread. More about me can be found here [https://me.vpv.io](https://me.vpv.io)

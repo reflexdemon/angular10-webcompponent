@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Angular 10 Elements Demo</title>
+  <style type="text/css">
+    .terminal {
+      position: relative;
+      width: 80%;
+      max-width: 600px;
+      border-radius: 6px;
+      padding-top: 45px;
+      margin-top: 8px;
+      overflow: hidden;
+      background-color: rgb(15, 15, 16);
+    }
+
+    .terminal::before {
+      content: "\2022 \2022 \2022";
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 4px;
+      background: rgb(58, 58, 58);
+      color: #c2c3c4;
+      width: 100%;
+      font-size: 2rem;
+      line-height: 0;
+      padding: 14px 0;
+      text-indent: 4px;
+    }
+
+    .terminal pre {
+      font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+      color: white;
+      padding: 0 1rem 1rem;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+<h1>Angular 10 Elements Demo</h1>
+<p>
+  If you are able to view the counter with + and - sign and a text box that changes the value, here it is. Angular elements is working :)
+</p>
+<analytics-counter></analytics-counter>
+<script src="analytics-counter.js"></script>
+<p>
+  To get this working, I have done a couple of things.
+  <ol>
+  <li>Added the JS that is having my changes included</li>
+  <li>Added the custom tag &lt;analytics-counter&gt;</li>
+</ol>
+</p>
+<div class="terminal">
+<pre>
+  ...
+  &lt;analytics-counter&gt;&lt;/analytics-counter&gt;
+  &lt;script src="analytics-counter.js"&gt;&lt;/script&gt;
+  ...
+</pre>
+</div>
+<p>
+  The Full source code can be found here <a href="https://github.com/reflexdemon/angular10-webcompponent">https://github.com/reflexdemon/angular10-webcompponent</a>
+</p>
+
+<p>
+  For more good examples you can follow me on GitHub <a href="https://github.com/reflexdemon" target="_blank">@reflexdemon</a> and Twitter <a href="https://twitter.com/reflexdemon" target="_blank">@reflexdemon</a>
+</p>
+</body>
+</html>
