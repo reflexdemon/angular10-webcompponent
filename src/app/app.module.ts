@@ -1,16 +1,27 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppComponent } from './app.component';
+import { AnalyticsCounterComponent } from './analytics-counter/analytics-counter.component';
+import { Injector} from '@angular/core';
+import { createCustomElement } from '@angular/elements';
 
 @NgModule({
+  entryComponents :  [
+    AnalyticsCounterComponent
+  ],
   declarations: [
-    AppComponent
+    AnalyticsCounterComponent
   ],
   imports: [
     BrowserModule
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: []
 })
-export class AppModule { }
+export class AppModule {
+  constructor(private injector: Injector){
+  }
+  ngDoBootstrap(): void {
+    const el = createCustomElement(AnalyticsCounterComponent, {injector : this.injector});
+    customElements.define('analytics-counter', el);
+  }
+}
