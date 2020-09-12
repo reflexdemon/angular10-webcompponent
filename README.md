@@ -19,3 +19,8 @@ The demo code can be found [here](https://github.com/reflexdemon/angular10-webco
 
 ## About the Author
 I am a tech savvy developer who loves to `code` even if it not my bread. More about me can be found here [https://me.vpv.io](https://me.vpv.io)
+
+## Credits
+
+1. Thanks to this [blog post](https://www.techiediaries.com/angular/angular-9-elements-web-components/). This gave the initial kick start
+2. More reading from the creators [Angular Elements](https://angular.io/guide/elements)
