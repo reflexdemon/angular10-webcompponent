@@ -1,4 +1,4 @@
-import { Component, OnInit, VERSION, ViewEncapsulation } from '@angular/core';
+import { Component, Input, OnInit, VERSION, ViewEncapsulation } from '@angular/core';
 
 @Component({
   selector: 'custom-analytics-counter',
@@ -8,6 +8,9 @@ import { Component, OnInit, VERSION, ViewEncapsulation } from '@angular/core';
   encapsulation: ViewEncapsulation.ShadowDom
 })
 export class AnalyticsCounterComponent implements OnInit {
+  @Input()
+  name:string;
+
   angularVersion = VERSION.full;
 counter = 10;
   constructor() { }
